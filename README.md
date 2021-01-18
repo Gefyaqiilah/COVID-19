@@ -17,7 +17,7 @@ List Section :
 ---
 
 ## Description
-
+   Pikovid is a website that contains information about covid 19,  in this application users can get realtime data covid-19. and also get very useful health education.
 
 
 #### Technology used
@@ -36,7 +36,15 @@ List Section :
 
 ## How To Use
 #### Installation
-
+- clone this project to your local computer
+- in root project create `.env` 
+```env
+REACT_APP_API_MATHDROID = "https://indonesia-covid-19.mathdro.id/api"
+REACT_APP_API_DISEASE = "https://disease.sh/v3/covid-19"
+REACT_APP_API_DEKONTAMINASI = "https://dekontaminasi.com/api"
+```
+- then open Command Prompt and type `npm install`
+- `npm start`
 [Back To The Top](#PIKOVID)
 
 ---
