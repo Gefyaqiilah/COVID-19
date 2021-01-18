@@ -339,9 +339,10 @@ export default class Home extends Component {
                   </div>
                 </div>
               <p className="text-30 text-center mx-auto mt-5 font-weight-bold">Apa yang Harus Dilakukan</p>
-              <div className="row p-4">
+              </div>
+              <div className="row p-lg-4 p-0 mx-auto justify-content-center">
                 <div className="col-lg-12 card-covid19-desc bg-green p-4 row">
-                  <div className="left col-8">
+                  <div className="left col-lg-8">
                   <p className="text-white text-24 font-weight-bold">
                   Ketahui Risiko dari COVID-19
                   </p>
@@ -353,11 +354,10 @@ export default class Home extends Component {
                   
                   </p>
                   </div>
-                  <div className="right col-4 d-flex justify-content-end align-items-center">
+                  <div className="right col-lg-4 d-flex justify-content-end align-items-center">
                     <a href="https://covid19.prixa.ai/partner/80b47a20-1353-49e9-af91-a0a5995ca89f/app/52b7d983-3e5d-49cc-9c99-508dc779aad3" className="btn-periksa d-flex justify-content-center align-items-center">Periksa diri anda</a>
                   </div>
                 </div>
-              </div>
               <p className="text-30 text-center mx-auto mt-5 font-weight-bold">Apa yang Harus Diketahui</p>
               </div>
               <div className="row">
@@ -387,6 +387,7 @@ export default class Home extends Component {
                   </div>
                 </div>
               </div>
+              <div className="wrapper-card-to-contact p-3">
               <div className="card-to-contact row mt-5">
                   <div className="left col-lg-6 d-flex align-items-center">
                     <div>
@@ -399,6 +400,7 @@ export default class Home extends Component {
                   <div className="right col-lg-6 p-0">
                     <img src="/img/eaf6002.png"/>
                   </div>
+              </div>
               </div>
               </>
         }

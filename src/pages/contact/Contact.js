@@ -42,7 +42,7 @@ export default class Contact extends Component {
             <p className="text-24 font-weight-bold text-white m-0">Kontak Rumah Sakit Terdekat anda</p>
             <p className="text-16 text-white m-0">Informasi dan nomor alamat rumah sakit yang menjadi rujukan pemeriksaan gejala COVID-19</p>
           </div>
-          <div className="body p-5">
+          <div className="body">
           <div className="card-hospital p-2">
             <div className="card-header bg-white">
               <p className="text-24 font-weight-bold">Daftar Rumah Sakit Rujukan</p>

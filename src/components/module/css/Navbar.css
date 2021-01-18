@@ -16,7 +16,7 @@
 #navbar {
   background-color:#FFFFFF !important;
   border-bottom: 2px solid  #E2E8F0;
-  height:80px;
+  height:max-content;
 box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 32px -4px;
 }
 .navbar-brand {

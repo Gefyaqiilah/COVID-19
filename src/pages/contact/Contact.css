@@ -10,6 +10,9 @@
   
   /* overflow: auto; */
 }
+.body {
+  padding:60px;
+}
 .card-hospital .card-header{
   border:none;
 }
@@ -43,8 +46,8 @@
   background-color:#CEB546;
 }
 
-@media screen and(max-width:575.98px) {
+@media screen and (max-width:575.98px) {
   .body {
-    padding:0;
+    padding:30px !important;
   }
 }

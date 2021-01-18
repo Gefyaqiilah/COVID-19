@@ -286,4 +286,7 @@
   .card-chart {
     margin: 0 0 20px 0;
   }
+  .card-covid19-desc .right{
+    justify-content: center !important;
+  }
 }

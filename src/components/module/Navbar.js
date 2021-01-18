@@ -19,14 +19,14 @@ export default class Navbar extends Component {
             </p>
         </div>
     <nav id="navbar" className="navbar navbar-light bg-light navbar-expand-lg">
-      <a className="navbar-brand d-flex ml-lg-5">
+      <Link to="/home"className="navbar-brand d-flex ml-lg-5">
           <img src="/img/pikovid.png" className="logo d-inline-block align-top mr-2" alt=""/>
           <div className="logo-text align-self-center">
           <p className=" logo-text m-0 p-0">Pusat Informasi Dan Koordinasi COVID-19</p>
           <p className=" logo-text m-0 p-0 text-gray">Indonesia</p>
           </div>
-      </a>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      </Link>
+      <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse justify-content-end mr-lg-5" id="navbarNav">
