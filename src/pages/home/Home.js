@@ -103,6 +103,7 @@ export default class Home extends Component {
       this.setState({isLoading: {...this.state.isLoading, isFetching: true}})
       axios.get(`${process.env.REACT_APP_API_DISEASE}/countries/ID?yesterday=false&twoDaysAgo=false&allowNull=true`)
       .then((result) => {
+          console.log('result', result)
           this.setState({isLoading: {...this.state.isLoading, isFetching: false}})
           this.setState({...this.state,data: {...this.state.data, indonesia: result.data}})
           this.setState(prevState => ({
@@ -277,15 +278,15 @@ export default class Home extends Component {
                   <p className="text-center text-16 font-weight-bold">KASUS HARI INI</p>
                   <div className="row">
                     <div className="col-12">
-                      <p className="text-center text-30 font-weight-bold text-light-black m-0">{this.state.data.indonesia.todayCases}</p>
+                      <p className="text-center text-30 font-weight-bold text-light-black m-0">{this.state.data.indonesia.todayCases || 0 }</p>
                       <p className="text-center m-0 text-light-black font-weight-bold">KASUS</p>
                     </div>
                     <div className="col-6">
-                      <p className="text-center text-30 text-orange font-weight-bold">{this.state.data.indonesia.todayRecovered}</p>
+                      <p className="text-center text-30 text-orange font-weight-bold">{this.state.data.indonesia.todayRecovered || 0 }</p>
                       <p className="text-center font-weight-bold">SEMBUH</p>
                     </div>
                     <div className="col-6">
-                      <p className="text-center text-30 text-maroon font-weight-bold">{this.state.data.indonesia.todayDeaths}</p>
+                      <p className="text-center text-30 text-maroon font-weight-bold">{this.state.data.indonesia.todayDeaths || 0 }</p>
                       <p className="text-center font-weight-bold">MENINGGAL</p>
                     </div>
                   </div>
