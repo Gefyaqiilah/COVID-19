@@ -1,0 +1,50 @@
+.bg-green {
+  background-color:#109657 !important;
+}
+.bg-light-green {
+  background-color:#399F4F !important;
+}
+.card-hospital {
+  border:1px solid #CBD5E0;
+  border-radius:8px;
+  
+  /* overflow: auto; */
+}
+.card-hospital .card-header{
+  border:none;
+}
+.card-hospital .card-list-hospital {
+  border-left:3px solid #FBD38D;
+}
+.card-list-hospital .phone{
+  background-color:#EBF8FF;
+  width:100%;
+  height:max-content;
+  word-wrap: break-word !important;
+  overflow:auto;
+}
+.card-list-hospital .phone p {
+  height:max-content;
+  word-wrap: break-word !important;
+}
+.pm {
+  padding:80px;
+}
+.text-24 {
+  font-size:24px;
+}
+.text-16 {
+  font-size:16px;
+}
+.text-white {
+  color:#FFFFFF;
+}
+.bg-orange {
+  background-color:#CEB546;
+}
+
+@media screen and(max-width:575.98px) {
+  .body {
+    padding:0;
+  }
+}

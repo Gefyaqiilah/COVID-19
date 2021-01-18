@@ -1,0 +1,67 @@
+* {
+  /* border: 1px solid red; */
+}
+.text-white {
+  color:#FFFFFF;
+}
+.text-light-gray {
+  color:#A0AEC0;
+}
+.text-light-black {
+  color:#575757;
+}
+.text-gray {
+  color:#7B7D7E !important;
+}
+#navbar {
+  background-color:#FFFFFF !important;
+  border-bottom: 2px solid  #E2E8F0;
+  height:80px;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 32px -4px;
+}
+.navbar-brand {
+  width:max-content !important;
+}
+.collapse {
+  width:max-content;
+}
+.logo {
+  width:40px;
+  object-fit: contain;
+}
+.logo-text {
+  color:black;
+  font-size:16px;
+  font-weight:500;
+  word-wrap: break-word;
+}
+.nav-item a{
+  font-size:16px !important;
+  color:black;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.hotline-info {
+  background:#109657;
+}
+.text-red {
+  color:#BF1212;
+}
+.text-12 {
+  font-size: 12px;
+}
+@media screen and (max-width:575.98px) {
+  .logo-text {
+    font-size:0.6em !important;
+  }
+  .navbar-brand {
+    display:flex;
+    justify-content: center;
+  }
+  .hotline-info {
+    font-size:2.7vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
