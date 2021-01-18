@@ -344,7 +344,7 @@ export default class Home extends Component {
               <div className="row p-lg-4 p-0 mx-auto justify-content-center">
                 <div className="col-lg-12 card-covid19-desc bg-green p-4 row">
                   <div className="left col-lg-8">
-                  <p className="text-white text-24 font-weight-bold">
+                  <p className="text-white text-24 font-weight-bold text-ketahui">
                   Ketahui Risiko dari COVID-19
                   </p>
                   <p className="text-white text-18 text-justify font-weight-normal">
@@ -366,7 +366,7 @@ export default class Home extends Component {
                   <img src="/img/img-waspada.svg" alt=""/>
                 </div>
                 <div className="col-lg-6">
-                  <div className="what-is-covid mt-lg-4">
+                  <div className="what-is-covid mt-lg-4 p-2">
                     <div className="title text-20 font-weight-bold">Apa Itu COVID-19?</div>
                     <div className="desc text-16">
                     COVID-19 adalah penyakit yang disebabkan oleh Novel Coronavirus (2019-nCoV), jenis baru coronavirus yang pada manusia menyebabkan penyakit mulai flu biasa hingga penyakit yang serius seperti Middle East Respiratory Syndrome (MERS) dan Sindrom Pernapasan Akut Berat/ Severe Acute Respiratory Syndrome (SARS).
