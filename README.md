@@ -53,7 +53,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 ## Author Info
 
-- LinkedIn - [@GefyAqiilahAqshal](www.linkedin.com/in/gefyaqiilahaqshal)
+- LinkedIn - [@GefyAqiilahAqshal](https://linkedin.com/in/gefyaqiilahaqshal)
 - GitHub - [GefyAqiilah](https://github.com/Gefyaqiilah)
 
 [Back To The Top](#lon-chat)
