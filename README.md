@@ -18,7 +18,7 @@ List Section :
 
 ## Description
    Pikovid is a website that contains information about covid 19,  in this application users can get realtime data covid-19. and also get very useful health education.
-This website application is inspired by Pikobar and also all page assets in the form of images etc. are taken from the Pikobar website.
+This website application is inspired by Pikobar and also all image page assets etc. are taken from the Pikobar website
 
 #### Technology used
 
