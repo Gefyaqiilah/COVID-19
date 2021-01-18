@@ -1,6 +1,6 @@
 import React, { Component, createRef } from 'react'
 import axios from 'axios'
-import moment from 'moment/min/moment-with-locales';
+import moment from 'moment';
 import '../home/Home.css'
 import './DataByCountry.css'
 
