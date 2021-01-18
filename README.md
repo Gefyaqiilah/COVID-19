@@ -21,7 +21,13 @@ List Section :
 
 #### Technology used
 
-
+- ReactJs
+- Bootstrap
+- Jquery
+- Axios
+- ChartJs
+- MomentJs
+- VSCode
 
 [Back To The Top](#PIKOVID)
 
@@ -35,7 +41,8 @@ List Section :
 ---
 
 ## References
-
+- [Pikobar](https://pikobar.jabarprov.go.id/)
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
 
 [Back To The Top](#PIKOVID)
 
