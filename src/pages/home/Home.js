@@ -1,7 +1,7 @@
 import React, { Component, createRef } from 'react'
 import axios from 'axios'
 import { Bar, Doughnut, Line  } from 'react-chartjs-2';
-import moment from 'moment/min/moment-with-locales';
+import moment from 'moment';
 import './Home.css'
 import {Link} from 'react-router-dom'
 export default class Home extends Component {
