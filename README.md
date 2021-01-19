@@ -3,6 +3,7 @@
 
 > Pikovid is a website that contains a collection of data on covid 19 globally and contains health education.
 
+https://pikovid.netlify.app/
 ---
 
 ### Table of Contents
