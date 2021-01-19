@@ -31,12 +31,12 @@ This website application is inspired by Pikobar and also all image page assets e
 - MomentJs
 - VSCode
 
-#### list of API used 
+#### List of API used 
 - https://indonesia-covid-19.mathdro.id/api
 - https://disease.sh/v3/covid-19
 - https://dekontaminasi.com/api
 
-https://dekontaminasi.com/api
+[Back To The Top](#PIKOVID)
 
 ---
 
