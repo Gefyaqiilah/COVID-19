@@ -33,6 +33,10 @@ This website application is inspired by Pikobar and also all image page assets e
 
 [Back To The Top](#PIKOVID)
 
+#### list of API used 
+- https://indonesia-covid-19.mathdro.id/api
+- https://disease.sh/v3/covid-19
+- https://dekontaminasi.com/api
 ---
 
 ## How To Use
